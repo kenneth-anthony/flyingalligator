@@ -128,12 +128,12 @@ h5 {
 
 
 
-#motion {
-	background-image: url("../media/images/motion-main.jpg");
-	box-shadow: 0 0 50px rgba(0,0,0,0.5);
-	min-height: 1000px;
-	padding: 100px 0;
-}
+/*#motion {*/
+	/*background-image: url("../media/images/motion-main.jpg");*/
+	/*box-shadow: 0 0 50px rgba(0,0,0,0.5);*/
+	/*min-height: 1000px;*/
+	/*padding: 100px 0;*/
+/*}*/
 
 
 section.parallax {
@@ -153,6 +153,7 @@ design page
 
 .design-background {
 	background-color: red;
-	background-image: ;
+	background-image: url("../media/logo-pattern.svg") opacity: 0.3;
+	background-repeat: repeat;
 
 }

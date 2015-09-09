@@ -1,10 +1,12 @@
 <?php
-require_once"php/lib/head-utils.php";
+$CURRENT_DIR = __DIR__;
+$PAGE_TITLE = "Design";
+require_once("php/lib/head-utils.php");
 ?>
 <body class="sfooter">
 	<div class="sfooter-content">
 		<header>
-			<?php require_once "php/lib/header.php" ?>
+			<?php require_once("php/lib/header.php"); ?>
 		</header>
 		<main>
 			<section class="parallax" data-stellar-bacground-ratio="1.5" id="design">
@@ -52,7 +54,7 @@ require_once"php/lib/head-utils.php";
 			</section>
 		</main>
 		<footer>
-			<?php require_once "php/lib/footer.php" ?>
+			<?php require_once("php/lib/footer.php"); ?>
 		</footer>
 	</div>
 </body>
