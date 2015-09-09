@@ -1,0 +1,158 @@
+/***
+* Flexbox Sticky Footer
+* http://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/
+***/
+
+/*corrects IE min-height bug*/
+html { display: flex;}
+body { width: 100%;}
+
+.sfooter {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+.sfooter-content {
+	flex: 1 0 auto;
+}
+
+
+/*.logo {*/
+	/*width: 25em;*/
+	/*height: auto;*/
+/*}*/
+
+.dropdown-menu {
+	background-color: rgba(0,0,0,0.8);
+
+}
+
+.navbar-nav{
+	margin: 35px;
+	background-color: rgba(0,0,0,0.8);
+}
+
+.navbar {
+	border: none;
+
+}
+
+.design-text{
+	color: rgb(0,0,0);
+	vertical-align: middle;
+
+}
+
+h2 {
+	color: white;
+	font-family:"Open Sans", sans-serif;
+	text-align: center;
+	font-size: 5em;
+	font-weight: 400;
+	letter-spacing: .3125em;
+}
+
+h5 {
+	color: white;
+	font-family: "Open Sans", sans-serif;
+	text-align: center;
+
+}
+
+.dropdown {
+	background-color: transparent;
+	background-image: none;
+}
+
+/*.navbar .navbar-inverse .navbar-fixed-top {*/
+	/*background-color: rgba(0,0,0,0.7);*/
+	/*background-image: none;*/
+/*}*/
+
+/*.navbar-inverse{*/
+	/*background-color: rgba(0,0,0,0.85);*/
+	/*background-image: none;*/
+/*}*/
+
+.navbar-inverse{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+99&amp;1+0,0.4+100 */
+	background: -moz-linear-gradient(top,  rgba(0,0,0,1) 0%, rgba(0,0,0,0.41) 99%, rgba(0,0,0,0.4) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,1)), color-stop(99%,rgba(0,0,0,0.41)), color-stop(100%,rgba(0,0,0,0.4))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(0,0,0,1) 0%,rgba(0,0,0,0.41) 99%,rgba(0,0,0,0.4) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(0,0,0,1) 0%,rgba(0,0,0,0.41) 99%,rgba(0,0,0,0.4) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(0,0,0,1) 0%,rgba(0,0,0,0.41) 99%,rgba(0,0,0,0.4) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(0,0,0,1) 0%,rgba(0,0,0,0.41) 99%,rgba(0,0,0,0.4) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#66000000',GradientType=0 ); /* IE6-9 */
+}
+
+.navbar-fixed-top {
+	top: 0;
+	border-radius: 0 0 0;
+}
+
+
+#design {
+	background-image: url("../media/images/design-main.jpg");
+	box-shadow: 0 0 50px rgba(0,0,0,0.8);
+	padding: 450px 0;
+	height: 1000px;
+	text-align: center;
+}
+
+/*#design-image {*/
+	/*background-image: url("../media/images/main-images-hover.jpg");*/
+	/*box-shadow: 0 0 50px rgba(0,0,0,0.8);*/
+	/*padding: 450px 0;*/
+	/*height: 1000px;*/
+	/*text-align: center;*/
+/*}*/
+
+#photography {
+	background-image: url("../media/images/photography-main.jpg");
+	box-shadow: 0 0 50px rgba(0,0,0,0.8);
+	height: 1000px;
+	padding: 450px 0;
+	width: auto;
+
+}
+
+
+#branding {
+	background-image: url("../media/images/branding-main.jpg");
+	box-shadow: 0 0 50px rgba(0,0,0,0.8);
+	min-height: 1000px;
+	text-align: center;
+	padding: 450px 0;
+}
+
+
+
+#motion {
+	background-image: url("../media/images/motion-main.jpg");
+	box-shadow: 0 0 50px rgba(0,0,0,0.5);
+	min-height: 1000px;
+	padding: 100px 0;
+}
+
+
+section.parallax {
+	background-attachment: fixed;
+	background: no-repeat fixed 50% 0;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	position: relative;
+
+}
+
+
+
+/***************************************
+design page
+***************************************/
+
+.design-background {
+	background-color: red;
+	background-image: ;
+
+}

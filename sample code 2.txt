@@ -1,0 +1,433 @@
+* {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+}
+
+*::selection {
+	background-color: tomato;
+}
+
+input:focus, textarea:focus {
+	outline: none;
+}
+
+.home-link {
+	padding: 10px;
+	text-decoration: none;
+	color: tomato;
+	border-radius: 5px;
+}
+
+.home-link:hover {
+	text-decoration: none;
+	background-color: tomato;
+	color: #333333;
+}
+
+.social-media {
+	padding: 10px;
+	color: tomato;
+	border-radius: 5px;
+}
+
+.social-media:hover {
+	background-color: tomato;
+	color: #333333;
+}
+
+header {
+	padding: 10px 0;
+	font-size: 2em;
+	background: #333333;
+	color: tomato;
+	box-shadow: 0 42px 100px rgba(0, 0, 0, 0.42);
+}
+
+.title {
+	font-weight: 600;
+}
+
+.logo {
+	padding: 0 10px 0 0;
+	width: 35px;
+	height: auto;
+}
+
+.nav li a {
+	color: tomato;
+	font-size: 0.6em;
+}
+
+.nav li a:hover {
+	background-color: tomato;
+	color: #333333;
+}
+
+.search-main-h1 {
+	font-weight: 200;
+	font-size: 3em;
+	text-align: center;
+}
+
+.main-search-align {
+	margin: auto;
+	width: 75%;
+}
+
+.main-search {
+	font-size: 1.2em;
+	font-weight: 300;
+	color: tomato;
+	border: 3px solid tomato;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+.main-search-button {
+	background-color: tomato;
+	color: #333333;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+@media only screen and (min-width: 968px) {
+	.search-main-h1 {
+		padding: 100px 0;
+		font-weight: 200;
+		font-size: 7em;
+		text-align: center;
+	}
+}
+
+.main-text {
+	color: #FFFFFF;
+}
+
+.main-search:focus {
+	box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.42);
+}
+
+.header-search {
+	padding: 0 5px;
+	color: tomato;
+	font-size: 0.8em;
+	font-weight: 300;
+	border: 2px solid tomato;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+
+}
+
+.header-search:focus {
+	box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.42);
+}
+
+.header-search-button {
+	background-color: tomato;
+	color: #333333;
+	font-weight: 300;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+.search-bar-left {
+	margin-right: 0;
+	padding-right: 0;
+}
+
+.search-bar-right {
+	margin-left: 0;
+	padding-left: 0;
+}
+
+.inline-block {
+	display: inline-block;
+}
+
+/********************************************
+ * Modal Styles
+ ********************************************/
+
+.form-group {
+	margin: 20px;
+	font-weight: 400;
+}
+
+.modal form label {
+	color: tomato;
+}
+
+.modal-button {
+	background-color: tomato;
+	color: #333333;
+	font-weight: 300;
+	border: 2px solid tomato;
+	border-radius: 5px;
+}
+
+.modal-header {
+	padding: 10px;
+	background-color: tomato;
+	color: #ffffff;
+	font-size: .8em;
+	font-weight: 400;
+	border-radius: 5px;
+}
+
+.close {
+	color: #333333;
+}
+
+.has-error {
+	color: tomato;
+}
+
+.checkbox {
+	font-weight: 400;
+}
+
+/********************************************
+ * Restaurant
+ ********************************************/
+
+#txtComment {
+	padding: 0 5px;
+	width: 100%;
+	color: tomato;
+	font-size: 1.2em;
+	font-weight: 300;
+	border: 2px solid tomato;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+.restaurant {
+	padding: 20px 0;
+	color: #FFFFFF;
+}
+
+.restaurant-image {
+	margin: auto;
+	width: auto;
+	height: 100%;
+	max-height: 200px;
+	text-align: center;
+}
+
+.restaurant-name {
+	margin: 0;
+	padding: 0 0 10px 0;
+	font-size: 3em;
+	font-weight: 100;
+}
+
+.restaurant-rating {
+
+}
+
+.star {
+	padding: 5px 20px 5px 0;
+	font-size: 3em;
+	display: inline-block;
+}
+
+.restaurant-description {
+	font-weight: 300;
+}
+
+.restaurant-inspection-h2 {
+	margin: 0;
+	padding: 0 0 10px 0;
+	font-size: 3em;
+	font-weight: 100;
+}
+
+.restaurant-inspection-p {
+	font-weight: 300;
+}
+
+.restaurant-comment {
+	margin: 10px 0;
+	padding: 10px;
+	width: 100%;
+	background-color: rgba(42, 42, 42, 0.75);
+	border-radius: 5px;
+	border: 2px solid tomato;
+}
+
+.restaurant-comment > h3 {
+	margin: 0;
+	padding: 0 0 5px 0;
+	font-size: 2em;
+	font-weight: 300;
+}
+
+.restaurant-comment > h3 > img {
+	width: 52px;
+	height: auto;
+}
+
+.restaurant-comment > p {
+	margin: 0;
+	padding: 0;
+	font-weight: 300;
+}
+
+.restaurant-comment-add {
+
+}
+
+.restaurant-comment-add-box {
+	padding: 0 5px;
+	width: 100%;
+	color: tomato;
+	font-size: 1.2em;
+	font-weight: 300;
+	border: 2px solid tomato;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+.restaurant-comment-add-box:focus {
+	box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.42);
+}
+
+.restaurant-comment-add-button {
+	padding: 0 5px;
+	width: 100%;
+	background-color: tomato;
+	color: #333333;
+	font-size: 1.2em;
+	font-weight: 300;
+	border: 2px solid tomato;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+.restaurant-comment-add-left {
+	margin: 0;
+	padding: 0;
+}
+
+.restaurant-comment-add-right {
+	margin: 0;
+	padding: 0;
+}
+
+/********************************************
+ * Profile
+ ********************************************/
+.profile {
+	margin: auto;
+	padding: 20px 0 0 0;
+	width: 100%;
+}
+
+.profile-picture {
+	margin: auto;
+	padding: 0 0 20px 0;
+	max-width: 300px;
+	height: auto;
+}
+
+.add-friend {
+	width: 25%;
+	min-width: 300px;
+	color: #333333;
+	font-size: 2em;
+	background-color: tomato;
+}
+
+.profile-management-btn {
+	width: 25%;
+	min-width: 300px;
+	color: tomato;
+	font-size: 2em;
+	background-color: #333333;
+}
+
+.center-button {
+	padding: 0 0 20px 0;
+	text-align: center;
+}
+
+/********************************************
+ * Footer Styles
+ ********************************************/
+footer {
+	padding: 10px 0;
+	background-color: #333333;
+	color: tomato;
+	font-size: 1.5em;
+	box-shadow: 0 -42px 100px rgba(0, 0, 0, 0.42);
+}
+
+.align-right {
+	text-align: right;
+}
+
+.copyright {
+	font-size: 0.42em;
+}
+
+/***
+ * Flexbox Sticky Footer
+ * http://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/
+ ***/
+
+/*corrects IE min-height bug*/
+html {
+	display: flex;
+}
+
+body {
+	width: 100%;
+}
+
+.sfooter {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+.sfooter-content {
+	flex: 1 0 auto;
+	background: url(../images/bg.jpg) no-repeat center center fixed;
+	background-size: cover;
+	padding-bottom: 100px;
+
+
+/********************************************
+ Header 
+ ********************************************/
+}
+
+
+<nav class="navbar navbar-inverse navbar-static-top">
+	<div class="container">
+		<div class="navbar-header">
+		<span>
+			<a class="navbar-brand" href="#">
+				<img class=logo src="/media/Kenneth-Anthony-Logo-horizontal-lightbg.png" alt="Kenneth Anthony Logo">
+			</a>
+		</span>
+
+		</div>
+
+		<ul class="nav navbar-nav navbar-right">
+			<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+				aria-expanded="false">Dropdown <span class="caret"></span></a>
+			<ul class="dropdown-menu">
+				<li><a href="#">Action</a></li>
+				<li><a href="#">Another action</a></li>
+				<li><a href="#">Something else here</a></li>
+				<li role="separator" class="divider"></li>
+				<li><a href="#">Separated link</a></li>
+			</ul>
+			</li>
+		</ul>
+
+	</div>
+	<!-- /.navbar-collapse -->
+	<!-- /.container-fluid -->
+</nav>

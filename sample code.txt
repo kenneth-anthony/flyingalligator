@@ -1,0 +1,285 @@
+http://mode87.com/untame/demo/parallax/
+
+http://untame.net/2013/04/how-to-integrate-simple-parallax-with-twitter-bootstrap/
+
+
+* {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+}
+
+input:focus, textarea:focus {
+	outline: none;
+}
+
+.home-link {
+	padding: 10px;
+	text-decoration: none;
+	color: tomato;
+	border-radius: 5px;
+}
+
+.home-link:hover {
+	text-decoration: none;
+	background-color: tomato;
+	color: #333333;
+}
+
+.social-media {
+	padding: 10px;
+	color: tomato;
+	border-radius: 5px;
+}
+
+.social-media:hover {
+	background-color: tomato;
+	color: #333333;
+}
+
+header {
+	padding: 10px 0;
+	font-size: 2em;
+	background: #333333;
+	color: tomato;
+
+	box-shadow: 0 42px 100px rgba(0, 0, 0, 0.42);
+}
+
+h1 {
+	padding: 100px 0;
+	font-weight: 200;
+	font-size: 7em;
+	text-align: center;
+}
+
+.title {
+	font-weight: 600;
+}
+
+.logo {
+	padding: 0 10px 0 0;
+	width: 35px;
+	height: auto;
+}
+
+.nav li a {
+	color: tomato;
+	font-size: 0.6em;
+}
+
+.nav li a:hover {
+	background-color: tomato;
+	color: #333333;
+}
+
+.main-text {
+	color: #FFFFFF;
+}
+
+.main-search {
+	margin: 0 0 20px 0;
+	padding: 15px;
+	width: 100%;
+	height: 2.5em;
+	font-size: 2.2em;
+	font-weight: 300;
+	color: tomato;
+	border: 3px solid tomato;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+.main-search:focus {
+	box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.42);
+}
+
+.main-search-button {
+	margin: 0 0 20px 0;
+	padding: 15px;
+	height: 2.5em;
+	font-size: 2.2em;
+	font-weight: 300;
+	background-color: tomato;
+	color: #333333;
+	border: 3px solid tomato;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+.header-search {
+	padding: 0 5px;
+	color: tomato;
+	font-size: 0.8em;
+	font-weight: 300;
+	border: 2px solid tomato;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+
+}
+
+.header-search:focus {
+	box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.42);
+}
+
+.header-search-button {
+	padding: 0 5px;
+	background-color: tomato;
+	color: #333333;
+	font-size: 0.8em;
+	font-weight: 300;
+	border: 2px solid tomato;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+.search-bar-left {
+	margin-right: 0;
+	padding-right: 0;
+}
+
+.search-bar-right {
+	margin-left: 0;
+	padding-left: 0;
+}
+
+.inline-block {
+	display: inline-block;
+}
+
+/********************************************
+ * Footer Styles
+ ********************************************/
+footer {
+	padding: 10px 0;
+	background-color: #333333;
+	color: tomato;
+	font-size: 1.5em;
+
+	box-shadow: 0 -42px 100px rgba(0, 0, 0, 0.42);
+}
+
+.align-right {
+	text-align: right;
+}
+
+.copyright {
+	font-size: 0.42em;
+}
+
+/***
+ * Flexbox Sticky Footer
+ * http://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/
+ ***/
+
+/*corrects IE min-height bug*/
+html {
+	display: flex;
+}
+
+body {
+	width: 100%;
+}
+
+.sfooter {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+.sfooter-content {
+	flex: 1 0 auto;
+
+	background: url(../images/bg.jpg) no-repeat center center fixed;
+	background-size: cover;
+}
+
+
+_____________________________________________________________________________________
+
+<?php
+$PAGE_TITLE = "TruFork";
+require_once("php/lib/head-utils.php");
+?>
+<body class="sfooter">
+	<div class="sfooter-content">
+		<header>
+			<?php require_once("php/lib/header.php"); ?>
+		</header>
+		<?php require_once("php/lib/search.php"); ?>
+	</div>
+	<footer>
+		<?php require_once("php/lib/footer.php"); ?>
+	</footer>
+</body>
+</html>
+
+___________________________________________________________________________________________
+
+<div class="container">
+	<div class="row">
+		<div class="col-md-3">About Us</div>
+		<div class="col-md-6"></div>
+		<div class="col-md-3 align-right">
+			<a href="#"><i class="fa fa-twitter social-media"></i></a>
+			<a href="#"><i class="fa fa-facebook social-media"></i></a>
+		</div>
+	</div>
+</div>
+
+
+___________________________________________________________________________________________
+
+<div class="container" xmlns="http://www.w3.org/1999/html">
+    <div class="row">
+        <div class="col-md-3">
+            <a class="home-link" href=".">
+				<span class=" title">
+				<img class="logo" src="images/fork.svg" alt="TruFork Logo"/>
+				TruFork
+				</span>
+            </a>
+        </div>
+        <div class="col-md-5">
+            <form id="header-search" method="get" action="">
+                <div class="inline-block search-bar-left">
+                    <input class="header-search" type="search" placeholder="Search in Albuquerque"/>
+                </div>
+                <div class="inline-block search-bar-right">
+                    <input class="header-search-button" type="submit" value="Search"/>
+                </div>
+            </form>
+        </div>
+        <div class="col-md-4">
+            <ul class="nav nav-pills pull-right">
+                <li role="presentation"><a href="#">Login/Register</a></li>
+                <li role="presentation"><a href="epic/epic.php">Epic</a></li>
+                <li role="presentation"><a href="epic/epic-addendum.php">Addendum</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+___________________________________________________________________________________________
+
+<div class="main-text">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>Find a delicious, clean place to eat.</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <form id="main-search" method="get" action="">
+                    <div class="col-xs-10 search-bar-left">
+                        <input class="main-search" type="search" placeholder="Search in Albuquerque"/>
+                    </div>
+                    <div class="col-xs-2 search-bar-right">
+                        <input class="main-search-button" type="submit" value="Search"/>
+                    </div>
+                </form>
+            </div>
+        </div>
+</div>
+</div>

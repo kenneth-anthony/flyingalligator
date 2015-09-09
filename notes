@@ -1,0 +1,123 @@
+When you click on the links each animate from the scrolling page
+	to populate the portfolio page
+
+	scroll spy
+
+
+
+<!--<!DOCTYP html>-->
+<!--<html lang="eng">-->
+<!--	<head>-->
+<!--		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>-->
+<!--		<meta name="viewport" content="width=device-width, initial-scale=1"/>-->
+<!---->
+<!--		<!-- Bootstrap Latest compiled and minified CSS -->-->
+<!--		<link type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet"/>-->
+<!---->
+<!--		<!-- Optional Bootstrap theme -->-->
+<!--		<link type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" rel="stylesheet"/>-->
+<!---->
+<!--		<!-- kenneth anthony custom style sheet-->-->
+<!--		<link rel="stylesheet" type="text/css" href="css/kennethanthony.css">-->
+<!---->
+<!--		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->-->
+<!--		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->-->
+<!--		<!--[if lt IE 9]>-->
+<!--		<script type="text/javascript" src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>-->
+<!--		<script type="text/javascript" src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>-->
+<!--		<![endif]-->-->
+<!---->
+<!--		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->-->
+<!--		<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>-->
+<!--		<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.form/3.51/jquery.form.min.js"></script>-->
+<!--		<script type="text/javascript" src="//ajax.aspnetcdn.com/ajax/jquery.validate/1.13.1/jquery.validate.min.js"></script>-->
+<!--		<script type="text/javascript" src="//ajax.aspnetcdn.com/ajax/jquery.validate/1.12.1/additional-methods.min.js"></script>-->
+<!---->
+<!--		<!-- Latest compiled and minified Bootstrap JavaScript, all compiled plugins included -->-->
+<!--		<script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>-->
+<!--		<title>Bootstrap 101 Template (DDC Version!)</title>-->
+<!--	</head>-->
+<!---->
+<!--	<header>-->
+<!--		<div class="header">-->
+<!--				<div class="logo">-->
+<!--					<img src="media/logos/kennethanthony_logo_heading.svg" alt="logo">-->
+<!--				</div>-->
+<!--			</div>-->
+<!--	</header>-->
+<!--	<body>-->
+<!--		<div class="container">-->
+<!--			<p>-->
+<!--				<h3>Kenneth Anthony</h3>-->
+<!---->
+<!--				<h3>Purpose</h3>-->
+<!--				Hello, my name is Kenneth Anthony Chavez the specific purpose of this website is show case my experience as a graphic-->
+<!--				designer. This will feature select works through out my career which includes branding, design, marketing,-->
+<!--				illustration, photography, motion graphics, website and software engineering.?? Purpose The demographic for the my website is-->
+<!--				businesses looking to advance their presences on the web. The services may include branding, graphic design, public relations,-->
+<!--				illustration, photography, multimedia services, and social media marketing.-->
+<!---->
+<!--				<h3>Goal</h3>-->
+<!--				The website design will be clean, modern, minimalist and visually appealing.-->
+<!--				This is accomplished through a scrolling bar highlighting each portfolio category-->
+<!--				(essentially?becoming menu structure). The website will be image based.-->
+<!--			</p>-->
+<!---->
+<!--			<p>-->
+<!--				<h2>Milestone 2</h2>-->
+<!--				<h3>Persona</h3>-->
+<!--				Adam<br/>-->
+<!---->
+<!--				age: 43<br/>-->
+<!--				Adam is an inspiring entrepreneur who is about to embark in the latest in medical technology.-->
+<!--				Adam has invented a cost effective devise that holds medical information stored in microchip that-->
+<!--				is easily accessible during the time emergency crisis. The device is scanned and with a handheld-->
+<!--				device and all the past medical history is populated on a screen. This ensures proper medical treatment-->
+<!--				is administered in a timely manner.-->
+<!---->
+<!--				Adam is searching investors and needs to create a a website to promote his new product to obtain-->
+<!--				capital in order to get his product on the market. He wants a clean sophisticated, minimalist approach to-->
+<!--				for brand of his product-->
+<!---->
+<!--				Adam searches for a google and finds kennethanthony.com. The site features portfolio work.-->
+<!--				He decides to search the contact for a quote.-->
+<!---->
+<!--				<img src="media/images/outline.svg"alt="use case"><br/>-->
+<!--				<h3>Flowchart</h3>-->
+<!--				<img src="media/images/flowchart.svg" alt="flow Chart">-->
+<!---->
+<!--				<h3>Site Map</h3>-->
+<!--				<h5>Heading</h5>-->
+<!--					• Menu sticky navbar</br>-->
+<!--						• about</br>-->
+<!--						• branding</br>-->
+<!--						• graphic design</br>-->
+<!--						• photography </br>-->
+<!--						• motion graphics</br>-->
+<!--						• web develop</br>-->
+<!--						• contact</br>-->
+<!--							form</br>-->
+<!--				<h5>footer</h5><br/>-->
+<!--						• social media links;;-->
+<!--		</div>-->
+<!---->
+<!--			<h2>Milestone 3</h2>-->
+<!--			<h3>Browser</h3>-->
+<!--				<img src="media/images/Website_Layout.jpg" alt="page 1">;-->
+<!--				<img src="media/images/Website_Layout2.jpg" alt="page 2">;-->
+<!--				<img src="media/images/Website_Layout3.jpg" alt="page 3">;-->
+<!--			<h3>Mobile</h3>-->
+<!--				<img src="media/images/Mobile_Layout.jpg" alt="page 1">;<br/>-->
+<!--				<img src="media/images/Mobile_Layout2.jpg" alt="page 2">;-->
+<!--				<img src="media/images/Mobile_Layout3.jpg" alt="page 3">;-->
+<!---->
+<!---->
+<!---->
+<!---->
+<!---->
+<!---->
+<!---->
+<!--		</p>-->
+<!--	</body>-->
+<!--</html>-->
+<!---->
