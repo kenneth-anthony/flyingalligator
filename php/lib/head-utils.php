@@ -47,8 +47,9 @@ $PREFIX = str_repeat("../", $DEPTH_DIFFERENCE);
 		<!-- Latest compiled and minified Bootstrap JavaScript, all compiled plugins included -->
 		<script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
-		<script type="text/javascript" src="<?php echo $PREFIX;?>javascript/jquery.stellar.min.js"></script>
 		<script src="<?php echo $PREFIX;?>javascript/jquery.swipebox.js"></script>
+		<script type="text/javascript" src="<?php echo $PREFIX;?>javascript/jquery.stellar.min.js"></script>
+
 
 		<!--custom javascript-->
 		<script type="text/javascript" src="<?php echo $PREFIX;?>javascript/javascript.js"></script>

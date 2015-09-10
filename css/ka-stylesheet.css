@@ -12,6 +12,8 @@ body { width: 100%;}
 	display: flex;
 	flex-direction: column;
 	min-height: 100vh;
+	background-color: #0d0d0d;
+	color: white;
 }
 
 .sfooter-content {
@@ -24,8 +26,33 @@ body { width: 100%;}
 	/*height: auto;*/
 /*}*/
 
-.dropdown-menu {
-	background-color: rgba(0,0,0,0.8);
+/**********************
+parent styles
+**********************/
+
+h2 {
+	color: white;
+	font-family:"Open Sans", sans-serif;
+	text-align: center;
+	font-size: 5em;
+	font-weight: 400;
+	letter-spacing: .0625em;
+}
+
+h5 {
+	color: white;
+	font-family: "Open Sans", sans-serif;
+	text-align: center;
+}
+
+.dropdown-menu > li > a {
+	color: #ffffff;
+}
+
+.dropdown-menu{
+	background-color:rgba(0,0,0,0.45);
+
+
 
 }
 
@@ -45,25 +72,15 @@ body { width: 100%;}
 
 }
 
-h2 {
-	color: white;
-	font-family:"Open Sans", sans-serif;
-	text-align: center;
-	font-size: 5em;
-	font-weight: 400;
-	letter-spacing: .125em;
-}
 
-h5 {
-	color: white;
-	font-family: "Open Sans", sans-serif;
-	text-align: center;
-
-}
 
 .dropdown {
 	background-color: transparent;
 	background-image: none;
+}
+
+.a .design:hover {
+	box-shadow: 5px 5px 5px yellow;
 }
 
 /*.navbar .navbar-inverse .navbar-fixed-top {*/
@@ -101,14 +118,6 @@ h5 {
 	text-align: center;
 }
 
-#design-foreground {
-	background-color: white;
-	box-shadow: 0 0 50px rgba(0,0,0,0.8);
-	padding: 450px 0;
-	height: 450px;
-	text-align: center;
-
-}
 
 /*#design-image {*/
 	/*background-image: url("../media/images/main-images-hover.jpg");*/
@@ -136,6 +145,13 @@ h5 {
 	padding: 450px 0;
 }
 
+section.parallax {
+	background-attachment: fixed;
+	background: no-repeat 50% 0;
+	margin: 0 auto;
+	position: relative;
+
+}
 
 
 /*#motion {*/
@@ -146,13 +162,7 @@ h5 {
 /*}*/
 
 
-section.parallax {
-	background-attachment: fixed;
-	background: no-repeat fixed 50% 0;
-	margin: 0 auto;
-	position: relative;
 
-}
 
 
 
@@ -160,12 +170,9 @@ section.parallax {
 design page
 ***************************************/
 
-.sfooter-content{
-
-}
 
 .row-one{
-	margin-top: 140px;
+	margin: 140px 1px 20px 0px;
 }
 
 .row-two {
@@ -176,3 +183,12 @@ design page
 	margin-top: 640px;
 }
 
+/***************************************
+design page
+***************************************/
+
+.form-contact{
+	width: 600px;
+	height: auto;
+	margin-top: 150px;
+}

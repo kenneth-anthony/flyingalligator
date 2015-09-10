@@ -1,6 +1,6 @@
 <?php
 $CURRENT_DIR = __DIR__;
-$PAGE_TITLE = "Design";
+$PAGE_TITLE = "Photography";
 require_once(dirname(__DIR__) . "/php/lib/head-utils.php");
 ?>
 
@@ -48,7 +48,7 @@ require_once(dirname(__DIR__) . "/php/lib/head-utils.php");
 						</div>
 					</div>
 
-						<div class="row-one">
+						<div class="row-three">
 							<div class="col-md-4">
 								<a href="/media/photography/street-7-bg.jpg" class="swipebox" title="Street Photography">
 									<img src="/media/photography/street-7-sm.jpg" alt="image">
