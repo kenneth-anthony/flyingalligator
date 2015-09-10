@@ -9,11 +9,11 @@ require_once("php/lib/head-utils.php");
 			<?php require_once("php/lib/header.php"); ?>
 		</header>
 		<main>
-			<section class="parallax" data-stellar-bacground-ratio="1.5" id="design">
+			<section class="parallax" data-stellar-bacground-ratio="0.5" id="design">
 				<div class="container">
 					<div class="row">
 						<div class="design-text">
-							<a href="#">
+							<a href="design">
 								<!--				<div id="design" onmouseover="()" onmouseout="() ;">-->
 								<h2>DESIGN</h2></div>
 						<h5>some text goes here</h5>

@@ -2,16 +2,11 @@
 	/********************************************/
 
 $(document).ready(function(){
-
-	/********************************************
-	 * Initialize stellar.js on window
-	 ********************************************/
-	$.stellar({
-		horizontalScrolling: false,
-		verticalOffset: 40
+		$.stellar({
+			horizontalScrolling: false,
+			verticalOffset: 40
+		});
 	});
-
-});
 
 	;( function( $ ) {
 

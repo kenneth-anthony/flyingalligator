@@ -51,7 +51,7 @@ h2 {
 	text-align: center;
 	font-size: 5em;
 	font-weight: 400;
-	letter-spacing: .3125em;
+	letter-spacing: .125em;
 }
 
 h5 {
@@ -101,6 +101,15 @@ h5 {
 	text-align: center;
 }
 
+#design-foreground {
+	background-color: white;
+	box-shadow: 0 0 50px rgba(0,0,0,0.8);
+	padding: 450px 0;
+	height: 450px;
+	text-align: center;
+
+}
+
 /*#design-image {*/
 	/*background-image: url("../media/images/main-images-hover.jpg");*/
 	/*box-shadow: 0 0 50px rgba(0,0,0,0.8);*/
@@ -140,7 +149,6 @@ h5 {
 section.parallax {
 	background-attachment: fixed;
 	background: no-repeat fixed 50% 0;
-	background-repeat: no-repeat;
 	margin: 0 auto;
 	position: relative;
 
