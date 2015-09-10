@@ -16,7 +16,6 @@ require_once("php/lib/head-utils.php");
 							<a href="#">
 								<!--				<div id="design" onmouseover="()" onmouseout="() ;">-->
 								<h2>DESIGN</h2></div>
-
 						<h5>some text goes here</h5>
 						</a>
 					</div>
@@ -36,22 +35,21 @@ require_once("php/lib/head-utils.php");
 					<div class="row">
 						<div class="col-xs-12">
 							<h2>BRANDING</h2>
-
 							<h5>some text goes here</h5>
 						</div>
 					</div>
 				</div>
 			</section>
-			<section class="parallax" data-stellar-bacground-ratio="1.5" id="motion">
-				<div class="container">
-					<div class="row">
-						<div class="col-xs-12">
-							<h2>Motion Graphics</h2>
-							<h5>some text goes here</h5>
-						</div>
-					</div>
-				</div>
-			</section>
+<!--			<section class="parallax" data-stellar-bacground-ratio="1.5" id="motion">-->
+<!--				<div class="container">-->
+<!--					<div class="row">-->
+<!--						<div class="col-xs-12">-->
+<!--							<h2>Motion Graphics</h2>-->
+<!--							<h5>some text goes here</h5>-->
+<!--						</div>-->
+<!--					</div>-->
+<!--				</div>-->
+<!--			</section>-->
 		</main>
 		<footer>
 			<?php require_once("php/lib/footer.php"); ?>

@@ -4,6 +4,7 @@
 ***/
 
 /*corrects IE min-height bug*/
+
 html { display: flex;}
 body { width: 100%;}
 
@@ -153,7 +154,7 @@ design page
 
 .design-background {
 	background-color: red;
-	background-image: url("../media/logo-pattern.svg") opacity: 0.3;
+	background-image: url("../media/logo-pattern.png") opacity: 0.3;
 	background-repeat: repeat;
 
 }

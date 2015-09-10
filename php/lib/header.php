@@ -4,13 +4,11 @@
 				<a class="navbar-brand" href="#">
 					<img class="img-responsive" src="/media/ka-logo-svg/ka-lg-hoz-lightbg.svg" alt="Kenneth Anthony">
 				</a>
-
 			</div>
 			<ul class="nav navbar-nav navbar-right">
 				<li class="dropdown">
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
 						aria-expanded="false">Menu <span class="caret"></span> </a>
-
 					<ul class="dropdown-menu">
 						<li><a href="#">About</a></li>
 						<li><a href="#">Design</a>
