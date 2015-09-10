@@ -53,6 +53,6 @@ $PREFIX = str_repeat("../", $DEPTH_DIFFERENCE);
 
 		<!--custom javascript-->
 		<script type="text/javascript" src="<?php echo $PREFIX;?>javascript/javascript.js"></script>
-		<title>Bootstrap 101 Template (DDC Version!)</title>
+		<title>Kenneth Anthony</title>
 	</head>
 

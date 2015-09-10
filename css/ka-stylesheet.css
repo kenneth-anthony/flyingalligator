@@ -11,7 +11,7 @@ body { width: 100%;}
 .sfooter {
 	display: flex;
 	flex-direction: column;
-	min-height: 100vh;
+	min-height: 100px;
 	background-color: #0d0d0d;
 	color: white;
 }
@@ -30,11 +30,18 @@ body { width: 100%;}
 parent styles
 **********************/
 
+@media only screen and (min-width: 880px) {
+	h2 {
+		font-size: 5em;
+
+	}
+}
+
 h2 {
 	color: white;
 	font-family:"Open Sans", sans-serif;
 	text-align: center;
-	font-size: 5em;
+	font-size: 3.5em;
 	font-weight: 400;
 	letter-spacing: .0625em;
 }
