@@ -46,6 +46,7 @@ require_once(dirname(__DIR__) . "/php/lib/head-utils.php");
 							</a>
 						</div>
 					</div>
+
 						<div class="row-one">
 							<div class="col-md-4">
 								<a href="/media/photography/street-7-bg.jpg" class="swipebox" title="Street Photography">
