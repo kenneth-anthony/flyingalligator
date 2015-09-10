@@ -12,6 +12,17 @@ $(document).ready(function(){
 	});
 
 });
+
+	;( function( $ ) {
+
+		$( '.swipebox' ).swipebox();
+
+	} )( jQuery );
+
+
+
+
+
 	//
 	//function mouseOver() {
 	//	document.getElementById("mouse").style.backgroundImage = url("../media/images/design-main.jpg");
